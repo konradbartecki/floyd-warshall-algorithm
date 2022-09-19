@@ -1,5 +1,6 @@
 import copy
 import timeit
+
 from main import FloydAlgorithms
 from test_data import (test_configuration_big_graphs)
 
@@ -20,5 +21,6 @@ def time_profiling():
         print("Recursive_WithNegativeDetection:",
               timeit.timeit(lambda: FloydAlgorithms
                             .floyd_recursive_negative_cycle_detection(copy.deepcopy(input_graph)), number=test_number))
+
 
 time_profiling()
