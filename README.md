@@ -50,3 +50,18 @@ Iterative_Simple: 0.001711071003228426
 Recursive: 0.7366994370240718
 Recursive_WithNegativeDetection: 1.0139947880525142
 ```
+
+
+## Test data generation
+
+Excel function
+
+`=IF(ROW()=COLUMN(); 0; IF(RAND()>0,9;"INF";RANDBETWEEN(1; 9)))`
+
+then to collect data, for each excel row
+
+`="["&TEXTJOIN(",";TRUE;A1:O1)&"]"`
+
+then to sum rows
+
+`="["&TEXTJOIN(","; TRUE; R1:R15)&"]"`
