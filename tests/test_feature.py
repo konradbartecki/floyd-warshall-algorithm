@@ -1,8 +1,10 @@
+import copy
 import unittest
+
 from parameterized import parameterized
+
 from src.algos import FloydAlgorithms
 from test_data import (test_configuration)
-import copy
 
 
 class UnitTests(unittest.TestCase):

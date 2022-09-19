@@ -1,5 +1,3 @@
-import sys
-
 INF = 9999
 
 graph1_input = [
