@@ -4,7 +4,7 @@ import unittest
 from parameterized import parameterized
 
 from src.algos import FloydAlgorithms
-from test_data import (test_configuration)
+from tests.test_data import (test_configuration)
 
 
 class UnitTests(unittest.TestCase):

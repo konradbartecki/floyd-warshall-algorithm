@@ -2,7 +2,7 @@ import copy
 import timeit
 
 from src.algos import FloydAlgorithms
-from test_data import (test_configuration_big_graphs)
+from tests.test_data import (test_configuration_big_graphs)
 
 
 def time_profiling():
