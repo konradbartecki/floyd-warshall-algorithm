@@ -1,6 +1,6 @@
 # Floyd-warshall-algorithm
 
-[![Python application](https://github.com/konradbartecki/floyd-warshall-algorithm/actions/workflows/python-app.yml/badge.svg)](https://github.com/konradbartecki/floyd-warshall-algorithm/actions/workflows/python-app.yml)
+[![Tests](https://github.com/konradbartecki/floyd-warshall-algorithm/actions/workflows/python-app.yml/badge.svg)](https://github.com/konradbartecki/floyd-warshall-algorithm/actions/workflows/python-app.yml)
 
 
 ## Unit tests
