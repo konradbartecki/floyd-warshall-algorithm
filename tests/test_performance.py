@@ -1,7 +1,7 @@
 import copy
 import timeit
 
-from algos import FloydAlgorithms
+from src.algos import FloydAlgorithms
 from test_data import (test_configuration_big_graphs)
 
 

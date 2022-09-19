@@ -1,6 +1,6 @@
 import unittest
 from parameterized import parameterized
-from algos import FloydAlgorithms
+from src.algos import FloydAlgorithms
 from test_data import (test_configuration)
 import copy
 
